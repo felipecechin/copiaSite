@@ -7,6 +7,9 @@ and open the template in the editor.
     Created on : 02/09/2016, 10:02:47
     Author     : alunos
 */
+body {
+    font-family: Segoe;
+}
 #imgCarrinho {
     width: 20px;
     height: 20px;
@@ -51,4 +54,20 @@ a {
 #campoPesquisar::-moz-placeholder {
     color: black;
     font-family: arial;
+}
+.imgItem {
+    width: 270px;
+    height: 152px;
+}
+
+#imagem {
+    height: 480px;
+}
+
+#seguir {
+    background-color: #ccc;
+    height: 45px;
+}
+#menuinferior {
+    background-color: rgb(242, 242, 242);
 }
