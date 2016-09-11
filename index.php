@@ -106,7 +106,7 @@ and open the template in the editor.
                     <table width="100%" style="padding-right: 10%;padding-left:10%;"> 
                         <tr>
                             <td width="25%" style="vertical-align: top;">
-                                <div>
+                                <a href="#">
                                     <table width="100%" align="center">
                                         <tr>
                                             <td>
@@ -124,10 +124,10 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </div>
+                                </a>
                             </td>
                             <td width="25%" style="vertical-align: top;">
-                                <div>
+                                <a href="#">
                                     <table width="100%" align="center">
                                         <tr>
                                             <td>
@@ -145,10 +145,10 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </div>
+                                </a>
                             </td>
                             <td width="25%" style="vertical-align: top;">
-                                <div>
+                                <a href="#">
                                     <table width="100%" align="center">
                                         <tr>
                                             <td>
@@ -166,10 +166,10 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </div>
+                                </a>
                             </td>
                             <td width="25%" style="vertical-align: top;">
-                                <div>
+                                <a href="#">
                                     <table width="100%" align="center">
                                         <tr>
                                             <td>
@@ -187,7 +187,7 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </div>
+                                </a>
                             </td>
                         </tr>
                     </table>
@@ -229,7 +229,7 @@ and open the template in the editor.
                         </tr>
                         <tr>
                             <td width="25%" style="vertical-align: top;">
-                                <div>
+                                <a href="#">
                                     <table width="100%" align="center">
                                         <tr>
                                             <td>
@@ -247,10 +247,10 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </div>
+                                </a>
                             </td>
                             <td width="25%" style="vertical-align: top;">
-                                <div>
+                                <a href="#">
                                     <table width="100%" align="center">
                                         <tr>
                                             <td>
@@ -268,10 +268,10 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </div>
+                                </a>
                             </td>
                             <td width="25%" style="vertical-align: top;">
-                                <div>
+                                <a href="#">
                                     <table width="100%" align="center">
                                         <tr>
                                             <td>
@@ -289,10 +289,10 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </div>
+                                </a>
                             </td>
                             <td width="25%" style="vertical-align: top;">
-                                <div>
+                                <a href="#">
                                     <table width="100%" align="center">
                                         <tr>
                                             <td>
@@ -310,7 +310,7 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </div>
+                                </a>
                             </td>
                         </tr>
                     </table>
