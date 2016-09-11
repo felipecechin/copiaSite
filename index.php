@@ -105,9 +105,9 @@ and open the template in the editor.
                 <td>
                     <table width="100%" style="padding-right: 10%;padding-left:10%;"> 
                         <tr>
-                            <td width="25%">
-                                <a href="#">
-                                    <table width="100%" align="center" height="278">
+                            <td width="25%" style="vertical-align: top;">
+                                <div>
+                                    <table width="100%" align="center">
                                         <tr>
                                             <td>
                                                 <img src="imagens/xboxOne.jpg" width="100%">
@@ -124,11 +124,11 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </a>
+                                </div>
                             </td>
-                            <td width="25%">
-                                <a href="#">
-                                    <table width="100%" align="center" height="278">
+                            <td width="25%" style="vertical-align: top;">
+                                <div>
+                                    <table width="100%" align="center">
                                         <tr>
                                             <td>
                                                 <img src="imagens/microsoftLumia.jpg" width="100%">
@@ -145,11 +145,11 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </a>
+                                </div>
                             </td>
-                            <td width="25%">
-                                <a href="#">
-                                    <table width="100%" align="center" height="278">
+                            <td width="25%" style="vertical-align: top;">
+                                <div>
+                                    <table width="100%" align="center">
                                         <tr>
                                             <td>
                                                 <img src="imagens/outlook.jpg" width="100%">
@@ -166,11 +166,11 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </a>
+                                </div>
                             </td>
-                            <td width="25%">
-                                <a href="#">
-                                    <table width="100%" align="center" height="278">
+                            <td width="25%" style="vertical-align: top;">
+                                <div>
+                                    <table width="100%" align="center">
                                         <tr>
                                             <td>
                                                 <img src="imagens/microsoftStore.jpg" width="100%">
@@ -187,7 +187,7 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </a>
+                                </div>
                             </td>
                         </tr>
                     </table>
@@ -228,9 +228,9 @@ and open the template in the editor.
                             </td>
                         </tr>
                         <tr>
-                            <td width="25%">
-                                <a href="#">
-                                    <table width="100%" align="center" height="278">
+                            <td width="25%" style="vertical-align: top;">
+                                <div>
+                                    <table width="100%" align="center">
                                         <tr>
                                             <td>
                                                 <img src="imagens/office365.jpg" width="100%">
@@ -247,11 +247,11 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </a>
+                                </div>
                             </td>
-                            <td width="25%">
-                                <a href="#">
-                                    <table width="100%" align="center" height="278">
+                            <td width="25%" style="vertical-align: top;">
+                                <div>
+                                    <table width="100%" align="center">
                                         <tr>
                                             <td>
                                                 <img src="imagens/windows10.jpg" width="100%">
@@ -268,11 +268,11 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </a>
+                                </div>
                             </td>
-                            <td width="25%">
-                                <a href="#">
-                                    <table width="100%" align="center" height="278">
+                            <td width="25%" style="vertical-align: top;">
+                                <div>
+                                    <table width="100%" align="center">
                                         <tr>
                                             <td>
                                                 <img src="imagens/sqlserver.jpg" width="100%">
@@ -289,11 +289,11 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </a>
+                                </div>
                             </td>
-                            <td width="25%">
-                                <a href="#">
-                                    <table width="100%" align="center" height="278">
+                            <td width="25%" style="vertical-align: top;">
+                                <div>
+                                    <table width="100%" align="center">
                                         <tr>
                                             <td>
                                                 <img src="imagens/microsoftDynamics.jpg" width="100%">
@@ -310,7 +310,7 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                     </table>
-                                </a>
+                                </div>
                             </td>
                         </tr>
                     </table>
