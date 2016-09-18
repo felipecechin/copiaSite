@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : alunos
 */
 body {
-    font-family: Segoe;
+    font-family: wf_segoe-ui_semilight,wf_segoe-ui_light,wf_segoe-ui_normal,'Segoe UI Semilight','Segoe UI Light','Segoe UI',Arial,sans-serif !important;
 }
 #imgCarrinho {
     width: 20px;
@@ -36,7 +36,7 @@ a {
     height: 24px;
 }
 #tabelaPesquisar{
-    border: 1px solid black;
+    border: 1px solid gray;
     border-radius: 0pt;
 }
 #campoPesquisar{
@@ -63,6 +63,26 @@ a {
 #imagem {
     height: 480px;
 }
+#imagem td {
+    background-image: url('../imagens/winApp.jpg'); 
+    background-repeat: no-repeat;
+}
+#imagem td table {
+    margin-top: 3%; 
+    margin-left: 9%;
+}
+#imagem td table h3 {
+    font-size: 34px;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+#imagem td table a {
+    font-size: 18px;
+    font-weight: bold;
+}
+#imagem td table a:hover {
+    text-decoration: underline;
+}
 
 #seguir {
     background-color: #ccc;
@@ -70,4 +90,64 @@ a {
 }
 #menuinferior {
     background-color: rgb(242, 242, 242);
+}
+#slideImg1{
+    height: 705.367px; 
+    width: 100%; 
+    background-image: url('../imagens/imagem1.jpg');
+    background-size: 100%;
+}
+#slideImg2 {
+    height: 705.367px; 
+    width: 100%;
+    background-image: url('../imagens/imagem2.jpg');
+    background-size: 100%;
+}
+.slideImgTable {
+    margin-top: 29%;
+}
+#slideImg1 h3 {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 34px;
+}
+#slideImg2 h3 {
+    margin-bottom: 0px;
+    font-size: 34px;
+}
+#slideImg1 a {
+    color: white;
+    font-size: 18px;
+}
+#slideShowImages a:hover {
+    text-decoration: underline;
+}
+#slideImg2 a {
+    font-size: 18px;
+}
+.imgTitulos {
+    font-size: calc(18.2px + .41vw);
+    text-align: center;
+}
+.imgDescricao {
+    text-align: center;
+    font-size: calc(14.9px + .22vw);
+}
+#menuinferior a:hover {
+    text-decoration: underline;
+}
+#menuinferior .titulo {
+    font-size: 15px;
+}
+
+#menuinferior {
+    color: #626262;
+    font-size: 12px;
+}
+#menuinferior a {
+    color: #626262;
+    font-size: 12px;
+}
+#tabelaRodape {
+    
 }

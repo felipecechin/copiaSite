@@ -7,13 +7,13 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Microsoft</title>
+        <title>Microsoft - Home Page oficial</title>
         <link rel="icon" href="imagens/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="Microsot, informática, computação">
         <meta name="description" content="Site semelhante ao da Microsoft">
         <link rel="stylesheet" href="css/estilo.css">
-        <script src="js/slideshow.js"></script>
+        <script src="js/slideshowTexto.js"></script>
     </head>
     <body>
         <table width="100%">
@@ -22,7 +22,9 @@ and open the template in the editor.
                     <table width="80%" align="center">
                         <tr>
                             <td>
-                                <img src="imagens/microsoft.png" alt="Microsoft" id="imgMicrosoft">
+                                <a href="#">
+                                    <img src="imagens/microsoft.png" alt="Microsoft" id="imgMicrosoft">
+                                </a>
                             </td>
                             <td width="10%" class="colunaMenu">
                                 <a href="#">
@@ -96,8 +98,35 @@ and open the template in the editor.
             <tr id="imagens" width="100%">
                 <td>
                     <div id="slideShowImages" width="100%">
-                        <img src="imagens/imagem1.jpg" alt="Slide 1" width="100%">
-                        <img src="imagens/imagem2.jpg" alt="Slide 2" width="100%">
+                        <div id="slideImg1">
+                            <table class="slideImgTable" align="center"> 
+                                <tr> 
+                                    <td> 
+                                        <h3>Produza melhor e mais rápido do que nunca com o Office 365.</h3>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <a href="#">Saiba mais ></a>
+                                        <a href="#">Compre agora ></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="slideImg2">
+                            <table class="slideImgTable" align="center"> 
+                                <tr> 
+                                    <td> 
+                                        <h3>O Windows ganha vida nesses computadores em destaque</h3>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <a href="#">Saiba mais ></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> 
                     </div>  
                 </td>
             </tr>
@@ -114,12 +143,12 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgTitulos"> 
                                                 Xbox One
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgDescricao">
                                                 Divirta-se por horas. Compre os consoles mais recentes.
                                             </td>
                                         </tr>
@@ -135,12 +164,12 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgTitulos">
                                                 Microsoft Lumia
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgDescricao">
                                                 Existe um telefone Lumia para você. Encontre-o agora.
                                             </td>
                                         </tr>
@@ -156,12 +185,12 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgTitulos">
                                                 Outlook
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgDescricao">
                                                 Baixe o aplicativo de email grátis para iOS, Android e Windows.
                                             </td>
                                         </tr>
@@ -177,12 +206,12 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgTitulos">
                                                 Microsoft Store
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgDescricao">
                                                 Encontre aquilo de que você precisa para sua casa, escola, trabalho e diversão.
                                             </td>
                                         </tr>
@@ -197,11 +226,13 @@ and open the template in the editor.
                 <td></td>
             </tr>
             <tr id="imagem">
-                <td style="background-image: url('imagens/winApp.jpg'); background-repeat: no-repeat;">
-                    <table style="margin-top: 3%; margin-left: 9%;">
+                <td>
+                    <table>
                         <tr>
                             <td>
-                                Excelentes aplicativos para Windows
+                                <h3>
+                                    Excelentes aplicativos para Windows
+                                </h3>
                             </td>
                         </tr>
                         <tr>
@@ -211,8 +242,9 @@ and open the template in the editor.
                         </tr>
                         <tr>
                             <td>
-                                <a>
-                                    Explore os aplicativos na Windows Store
+                                <br>
+                                <a href="#">
+                                    Explore os aplicativos na Windows Store >
                                 </a>
                             </td>
                         </tr>
@@ -224,7 +256,7 @@ and open the template in the editor.
                     <table width="100%" style="padding-right: 10%;padding-left:10%;"> 
                         <tr>
                             <td colspan="4" style="text-align: center;">
-                                <h3>Para o trabalho</h3>
+                                <h2 style="font-size: 1.625em; font-weight: 300;">Para o trabalho</h2>
                             </td>
                         </tr>
                         <tr>
@@ -237,12 +269,12 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgTitulos">
                                                 Novo Office 365 para empresas
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgDescricao">
                                                 Saiba mais sobre todas as funcionalidades disponíveis.
                                             </td>
                                         </tr>
@@ -258,12 +290,12 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgTitulos">
                                                 Windows 10 Enterprise
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgDescricao">
                                                 Baixe a avaliação gratuita de 90 dias para profissionais de TI.
                                             </td>
                                         </tr>
@@ -279,12 +311,12 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgTitulos">
                                                 SQL Server 2016
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgDescricao">
                                                 Mais rápido, mais seguro e já está disponível. Faça o teste gratuitamente.
                                             </td>
                                         </tr>
@@ -300,12 +332,12 @@ and open the template in the editor.
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgTitulos">
                                                 Microsoft Dynamics CRM
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>
+                                            <td class="imgDescricao">
                                                 Experimente os novos recursos disponíveis agora.
                                             </td>
                                         </tr>
@@ -343,7 +375,7 @@ and open the template in the editor.
                             <td width="16.66%">
                                 <table>
                                     <tr>
-                                        <td>
+                                        <td class="titulo">
                                             Aprender
                                         </td>
                                     </tr>
@@ -382,7 +414,7 @@ and open the template in the editor.
                             <td width="16.66%" style="vertical-align: top;">
                                 <table >
                                     <tr>
-                                        <td>
+                                        <td class="titulo">
                                             Dispositivos
                                         </td>
                                     </tr>
@@ -406,7 +438,7 @@ and open the template in the editor.
                             <td width="16.66%" style="vertical-align: top;">
                                 <table>
                                     <tr>
-                                        <td>
+                                        <td class="titulo">
                                             Microsoft Store
                                         </td>
                                     </tr>
@@ -435,7 +467,7 @@ and open the template in the editor.
                             <td width="16.66%" style="vertical-align: top;">
                                 <table>
                                     <tr>
-                                        <td>
+                                        <td class="titulo">
                                             Downloads
                                         </td>
                                     </tr>
@@ -474,7 +506,7 @@ and open the template in the editor.
                             <td width="16.66%" style="vertical-align: top;">
                                 <table>
                                     <tr>
-                                        <td>
+                                        <td class="titulo">
                                             Valores
                                         </td>
                                     </tr>
@@ -498,7 +530,7 @@ and open the template in the editor.
                             <td width="16.66%" style="vertical-align: top;">
                                 <table>
                                     <tr>
-                                        <td>
+                                        <td class="titulo">
                                             Empresa
                                         </td>
                                     </tr>
@@ -540,7 +572,7 @@ and open the template in the editor.
                                 </table>
                             </td>
                             <td colspan="3">
-                                <table align="right">
+                                <table align="right" width="80%" style="text-align: center;">
                                     <tr>
                                         <td>
                                             <a href="#">Fale Conosco</a>
